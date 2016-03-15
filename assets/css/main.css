@@ -3228,7 +3228,7 @@
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2F4F4F;
-			background-image: linear-gradient(to top, rgba(47,79,79, 0.8), rgba(102,205,170, 0.8)), url("../../images/bg.jpg");
+			background-image: linear-gradient(to top, rgba(47,79,79, 0.8), rgba(102,205,170, 0.8));
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
@@ -3270,15 +3270,15 @@
 	}
 
 	.wrapper {
-		background-color: #2E8B57;
+		background-color: #1E90FF;
 		margin: 6.5em 0;
 		position: relative;
 	}
     .wrapper:after {
-        background-color: #2E8B57
+        background-color: #1E90FF;
     }
 		.wrapper:before {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141;' /%3E%3C/svg%3E");
+			background-color: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141;' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3297,7 +3297,7 @@
 		}
 
 		
-		}
+		
 
 		.wrapper.alt:before {
 			-moz-transform: scaleX(-1);
@@ -3323,10 +3323,12 @@
 			background-color: #00CED1
 		}
 
-			.wrapper.style2:before, .wrapper.style2:after {
+			.wrapper.style2:before  {
 				background-color: #008080;
 			}
-
+        .wrapper.style2:after {
+            background-color: #1E90FF;
+        }
 		
 			
 
@@ -3414,18 +3416,19 @@
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d;' /%3E%3C/svg%3E");
 				}
-
-			
+           	.wrapper.spotlight.style3:before {
+                   background-color: #20B2AA
+               }		
 
 			.wrapper.spotlight.style4 {
-				background-color: #2E8B57;
+				background-color: #66CDAA;
 			}
 
 				.wrapper.spotlight.style4:before {
 					background-color: #2E8B57;
 				}
                 .wrapper.spotlight.style4:after {
-                    background-color: #2E8B57;
+                    background-color: #66CDAA;
                 }
 
 			.wrapper.spotlight.style5 {
@@ -3607,7 +3610,7 @@
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
+			background-color: #1E90FF;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, center;
